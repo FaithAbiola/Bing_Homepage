@@ -1,4 +1,4 @@
-* html{
+* html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     font-size: 13px;
     line-height: 1.5;
     margin: 0;
-    
+
 }
 
 .navbar {
@@ -20,7 +20,7 @@ body {
     background-image: url("./marcus-ganahl-jlvbSU84e3k-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    
+
 }
 
 nav {
@@ -30,7 +30,7 @@ nav {
     padding-top: 0%;
     padding-left: 10%;
     padding-right: 10%;
-    
+
 }
 
 nav ul {
@@ -44,6 +44,7 @@ nav ul {
     padding: 0;
     vertical-align: text-bottom;
 }
+
 nav .nav-right {
     color: #ffffffcc;
     display: inline-block;
@@ -79,13 +80,13 @@ nav ul li {
     background-repeat: no-repeat;
     position: relative;
     display: inline-block;
-    
+
 }
 
 nav ul li a {
     color: rgb(245, 240, 240);
     text-decoration: none;
-    
+
 }
 
 nav ul li a:hover {
@@ -204,6 +205,7 @@ hr {
     z-index: 1;
     transform-origin: 4px 0px;
 }
+
 #open-burger {
     background-color: transparent;
     border: none;
@@ -223,7 +225,7 @@ hr {
     overflow: auto;
 }
 
-  .menu-content {
+.menu-content {
     color: grey;
     margin: 3% auto;
     padding: 20px;
@@ -232,7 +234,7 @@ hr {
     border: 1px;
     border-radius: 7px;
     width: 320px;
-    box-shadow: 2px 2px 12px 3px rgba(0,0,0,.2);
+    box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, .2);
     border-radius: 4px;
     z-index: 1000;
     background-color: #fff;
@@ -248,27 +250,37 @@ hr {
 .menu hr {
     width: 320px;
 }
-.menu_p2 li{
+
+.menu_p2 li {
     display: inline-block;
     flex-wrap: wrap;
-    list-style:square;
-    color:#e12828cc;
+    list-style: square;
+    color: #e12828cc;
 
 }
+
 .menu div {
     line-height: 0.7;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; 
-  }
-  .menu_p p {
+    flex-wrap: wrap;
+}
+
+.menu_p p {
     display: inline-block;
     position: relative;
     left: 40px;
     margin-right: 10px;
-    justify-content:space-between;
-  }
-  
+    justify-content: space-between;
+}
+.menu_p_toogle {
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    margin-right: 50px;
+    justify-content: space-between;
+    font-size: 13px;
+}
 .exit {
     color: #aaa;
     float: right;
@@ -291,7 +303,7 @@ hr {
     display: flex;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .navbar-links li {
@@ -327,6 +339,36 @@ hr {
     border-radius: 10px;
 }
 
+.toogle {
+    display: block;
+    position: relative;
+    font-size: 13px;
+    height: 17px;
+    line-height: 17px;
+}
+
+.toggle_ctrl {
+    display: inline-block;
+    vertical-align: middle;
+    width: 38px;
+    height: 16px;
+}
+
+.toggle_img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.hb_value_col {
+    position: absolute;
+    margin-left: 20px;
+    right: 0;
+    font-size: 13px;
+    height: 15px;
+    color: #444;
+}
+
 .search-form {
     position: relative;
     bottom: 750px;
@@ -334,7 +376,7 @@ hr {
     align-items: center;
     justify-content: center;
     padding: 10%;
-    
+
 }
 
 .search-wrapper {
@@ -428,7 +470,7 @@ hr {
     background-color: #fff;
     margin: 0 auto;
     position: relative;
-    bottom:305px;
+    bottom: 305px;
     width: 100%;
     display: block !important;
     left: 90px;
@@ -508,7 +550,7 @@ hr {
 }
 
 .title22 {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .image-card-img {
@@ -527,6 +569,7 @@ hr {
     margin: 0;
     display: block;
 }
+
 .image-card-img2 {
     height: 70%;
     width: 100%;
@@ -558,6 +601,7 @@ hr {
     border-collapse: collapse;
     text-decoration: none;
 }
+
 .info2 {
     background-color: #f9f9f9;
     padding: 28px;
@@ -698,6 +742,7 @@ hr {
     position: absolute;
     bottom: 16px;
 }
+
 .news-section {
     max-height: 200px;
     overflow-y: scroll;
@@ -716,16 +761,17 @@ hr {
 .news-content {
     margin-bottom: 0;
 }
-.bing-homepage-image{
+
+.bing-homepage-image {
     height: 121px;
-    width:174px;
-    background-size:cover;                 
-    background-repeat:   no-repeat;
-    background-position:center;
+    width: 174px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     bottom: 30px;
     right: 30px;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 1px;
@@ -782,6 +828,7 @@ hr {
     line-height: 35px;
     color: #666;
 }
+
 .footer2 {
     background-color: #fff;
     padding: 0 10px;
@@ -814,14 +861,14 @@ hr {
 
 .footer2__link-item {
     margin-right: 15px;
-    list-style: disc;    
+    list-style: disc;
     display: inline-block;
     height: 22px;
 
 }
 
 .footer2__link {
-    line-height:1px;    
+    line-height: 1px;
     color: #666;
     text-decoration: none;
     list-style: disc;

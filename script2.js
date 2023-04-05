@@ -18,3 +18,41 @@ window.onclick = function (event) {
     menu.style.display = "none";
   }
 };
+
+const toggleCtrls = [
+  {
+    path: document.querySelector('#toggle1 path'),
+    circle: document.querySelector('#toggle1 circle'),
+    fill: '#00809d',
+    cx: '28'
+  },
+  {
+    path: document.querySelector('#toggle2 path'),
+    circle: document.querySelector('#toggle2 circle'),
+    fill: '#00809d',
+    cx: '28'
+  },
+  {
+    path: document.querySelector('#toggle3 path'),
+    circle: document.querySelector('#toggle3 circle'),
+    fill: '#00809d',
+    cx: '28'
+  }
+];
+
+toggleCtrls.forEach(function(ctrl) {
+  const toggleCtrl = ctrl.circle.parentElement;
+  toggleCtrl.addEventListener('click', function() {
+    if (ctrl.path.getAttribute('fill') === ctrl.fill) {
+      ctrl.path.setAttribute('fill', '#444');
+      ctrl.circle.setAttribute('cx', '10');
+    } else {
+      ctrl.path.setAttribute('fill', ctrl.fill);
+      ctrl.circle.setAttribute('cx', ctrl.cx);
+    }
+  });
+});
+
+
+
+
