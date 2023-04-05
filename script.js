@@ -26,21 +26,3 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
-
-// const hamburger = document.querySelector(".hamburger");
-// const menu = document.querySelector(".menu");
-
-// hamburger.addEventListener("click", function () {
-// hamburger.classList.toggle("active");
-// menu.classList.toggle("active");
-// });
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
-toggleButton.addEventListener('click', () => {
-  navbarLinks.classList.toggle('active')
-})
-
-
-
