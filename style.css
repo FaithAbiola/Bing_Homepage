@@ -248,7 +248,7 @@ hr {
 }
 
 .menu hr {
-    width: 320px;
+    width: 357px;
 }
 
 .menu_p2 li {
@@ -277,7 +277,7 @@ hr {
     display: inline-block;
     position: relative;
     left: 40px;
-    margin-right: 50px;
+    margin-right: 80px;
     justify-content: space-between;
     font-size: 13px;
 }
@@ -870,7 +870,7 @@ hr {
 .footer2__link {
     line-height: 1px;
     color: #666;
-    text-decoration: none;
+    text-decoration: underline;
     list-style: disc;
     font-size: 13px;
     transition: color 0.2s ease-in-out;
