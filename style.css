@@ -192,6 +192,7 @@ hr {
 .hamburger {
     display: inline-block;
     cursor: pointer;
+    margin-left: -18px;
 }
 
 .hamburger span {
@@ -226,14 +227,14 @@ hr {
 }
 
 .menu-content {
-    color: grey;
+    color: rgb(42, 42, 42);
     margin: 3% auto;
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px;
     border-radius: 7px;
-    width: 320px;
+    width: 290px;
     box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, .2);
     border-radius: 4px;
     z-index: 1000;
@@ -248,7 +249,7 @@ hr {
 }
 
 .menu hr {
-    width: 357px;
+    width: 330px;
 }
 
 .menu_p2 li {
@@ -260,7 +261,7 @@ hr {
 }
 
 .menu div {
-    line-height: 0.7;
+    line-height: 0.2;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -276,7 +277,7 @@ hr {
 .menu_p_toogle {
     display: inline-block;
     position: relative;
-    left: 40px;
+    left: 35px;
     margin-right: 80px;
     justify-content: space-between;
     font-size: 13px;
@@ -646,7 +647,7 @@ hr {
     width: 16px;
     background-repeat: no-repeat;
     position: relative;
-    top: 28px;
+    top: 23px;
     background-size: 190px 16px;
     background-position: 0 0;
 }
@@ -741,25 +742,6 @@ hr {
     display: block;
     position: absolute;
     bottom: 16px;
-}
-
-.news-section {
-    max-height: 200px;
-    overflow-y: scroll;
-}
-
-.news-item {
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-}
-
-.news-title {
-    margin-top: 0;
-}
-
-.news-content {
-    margin-bottom: 0;
 }
 
 .bing-homepage-image {
@@ -870,7 +852,7 @@ hr {
 .footer2__link {
     line-height: 1px;
     color: #666;
-    text-decoration: underline;
+    text-decoration: none;
     list-style: disc;
     font-size: 13px;
     transition: color 0.2s ease-in-out;
@@ -886,6 +868,8 @@ hr {
     font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
     line-height: 35px;
     color: #666;
+    padding: 10px;
+    margin-left: -10px;
 }
 
 @media (max-width: 768px) {
@@ -911,3 +895,26 @@ hr {
         width: 48%;
     }
 }
+
+    @media only screen and (max-width: 767px) {
+        nav ul {
+          line-height: 30px;
+        }
+      
+        nav .nav-right {
+          line-height: 30px;
+        }
+      
+        .logo {
+          margin-right: 12px;
+          width: 100px;
+          height: auto;
+          transform: translate(0, 6px) scale(0.8);
+          filter: none;
+        }
+      
+        nav ul li {
+          margin-right: 18px;
+        }
+      }
+      
